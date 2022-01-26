@@ -1,0 +1,8 @@
+.select {
+    background-color: rgba(144, 233, 255, 0.301);
+    padding: 15px;
+    margin-top: 20px;
+}
+.select select {
+    margin: 15px;
+}

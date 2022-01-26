@@ -1,0 +1,65 @@
+.toast {
+    margin: 20px;
+    display: flex;
+    /* min-width: 200px; */
+    width: 450px;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+}
+.toast div {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    /* float: left; */
+    
+}
+.toast div h2 {
+    /* width: 70%; */
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.toast div p {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.img {
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(155, 248, 92);
+    text-align: center;
+    line-height: 50px;
+    /* float: left; */
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    /* margin-left: 30px; */
+    /* padding: 10px; */
+    /* background-color: grey; */
+}
+.toast0 {
+    border-left: 10px solid rgb(155, 248, 92);
+}
+.toast1 {
+    border-left: 10px solid rgb(92, 121, 248);
+}
+.toast2 {
+    border-left: 10px solid rgb(248, 92, 92);
+}.toast3 {
+    border-left: 10px solid rgb(218, 200, 45);
+}
+.img1 {
+    color: rgb(92, 121, 248);
+}
+.img2 {
+    color: rgb(248, 92, 92);
+}
+.img3 {
+    color: rgb(218, 200, 45);
+}
+

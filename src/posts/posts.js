@@ -8,7 +8,7 @@ export default function Posts () {
     async function fetchPosts () {
         const response = await fetch('https://jsonplaceholder.typicode.com/posts');
         const result = await response.json();
-        getPosts(result)
+        getPosts(result);
 
     }
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function Posts () {
         {isPosts.map((post) => {
             // console.log(post);
             return (
-            <Post id={post.id} title={post.title} body={post.body} />
+            <Post key={post.id} id={post.id} title={post.title} body={post.body} />
             )
         })}
         </div>

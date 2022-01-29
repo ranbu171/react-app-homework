@@ -1,6 +1,7 @@
 import Tabs from './components/Tabs/Tabs';
 import Select from './components/Select/select';
 import Posts from './posts/posts';
+import Input from './input/Input';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
  console.log('App Test')
   return (
     <div id="app" >
+      <Input />
       <Tabs options={options} />
       <Select />
       <Posts />

@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import './toast.css'
 
 export default function Toast ({index}) {
@@ -16,7 +16,7 @@ export default function Toast ({index}) {
                 </div>
             </div>
         )
-    } else if (index == 1){
+    } else if (index === 1){
         return (
             <div className={'toast toast'+index}>
                 <i className={"fas fa-info-circle img img"+index}></i>
@@ -26,7 +26,7 @@ export default function Toast ({index}) {
                 </div>
             </div>
         )
-    } else if (index == 2){
+    } else if (index === 2){
         return (
             <div className={'toast toast'+index}>
                 <i className={"fas fa-times-circle img img"+index}></i>
@@ -36,7 +36,7 @@ export default function Toast ({index}) {
                 </div>
             </div>
         )
-    }else if (index == 3){
+    }else if (index === 3){
         return (
             <div className={'toast toast'+index}>
                 <i className={"fas fa-exclamation-circle img img"+index}></i>
